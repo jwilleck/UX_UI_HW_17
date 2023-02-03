@@ -8,35 +8,48 @@ html {
     padding: 0;
   }
 
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  
+}
+
 nav {
     width: 100%;
-    background-color: white;
+    background-color:#03456c;
     padding-left: 30px;
     padding-right: 10px;
+    
+    
   }
   
   .logo {
     display: inline-block;
+   
   }
   
   .nav-links {
     list-style: none;
     display: flex;
+    font-size: 20px;
   }
 
   .nav-item a {
+    font-family: 'Merriweather Sans', sans-serif;
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    color: #03456c;
+    color: white;
+    
   }
   
   .nav-item:hover {
-    background-color: white;
+    border-radius: 10px;
+    background-color: rgba(245, 240, 240, 0.2);
+   
   }
   
   .nav-item:hover a {
-    color: black;
+    color: white;
   }
   
 
@@ -44,40 +57,332 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
   }
       
   .logo img {
-    width: 111px;
+    
     vertical-align: middle;
+  }
+
+  .linkedin {
+    display: flexbox;
+    margin-top:10px;
+    margin-left: 20px;
+    margin-right: 40px;
+  }
+
+  .linkedin:hover {
+    cursor: pointer;
+  }
+  
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #03456c;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(/images/headerline5.png);
+    background-repeat: no-repeat;
+    }
+  
+  p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-weight: lighter;
+    line-height: 24px;
+    padding-bottom: 15px;
   }
 
   .hero {
     display: flex;
-    justify-content: space-between;
-    height: 500px;
-    width: 80%;
-    margin: 0 auto;
-    background-color: #03456c;
-    
+    justify-content:space-around;
+    background-color:#f4f4f4;
+    margin-bottom: 30px;
   }
 
   .herotext {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-weight: 300;
-    color: white;
-    padding: 40px;
-    font-size: 30px;
-    text-align: left;
+    margin: 20px 20px;
+    width: 50%;
   }
 
   .heroimg {
-    height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 20px;
+    display:flexbox;
+    margin: 0 auto;
+  }
+
+  .heroimg img {
+   width: 100%;  
+  }
+
+    .herotext p {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    color:black;
+    text-align: left;
+    line-height: 34px;
+    
+    
+  }
+
+  .herotext h1 {
+    font-size: 25px;
+    color:#03456c;
+    font-weight:700;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-image: none;
+    
+  }
+
+  .content {
+    display: flex;
+    justify-content:space-around;
+    background-color: white;
   }
   
+  .contentleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left:40px;
+    margin-right: 40px;
+    
+  }
   
+  .contentright {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 40px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    width: 350px;
+    border-radius: 10px;
+  }
+
+  .box p {
+   font-family: 'Marck Script', cursive;
+   font-size: 30px;
+   line-height: 30px;
+   padding: 10px;
+   text-align: center;
+   
+  }
+
+  .button-resume {
+    display: flex;
+    background-color: #A7D8F5;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    transition: opacity 0.5s;
+  }
+
+  .button-resume:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+
+  .skillscontent {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    margin: 0 40px;
+    
+  }
+
+  .skills-row {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  .skillscard {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 0 20px 20px 20px;
+ }
+
+ .skillscard h2 {
+  padding-bottom: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 22px;
+ }
+
+  .skillscard ul {
+    list-style: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #03456c;
+      }
+
+  .ft-content {
+    display: flexbox;
+    flex-direction: column;
+  
+    margin: 10px 20px;
+   
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+
+   .ft-middle p {
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 0 0;
+    padding-bottom: 3px;
+    line-height: 16px;
+ }
+  
+ .ft-middle h3 {
+  font-weight: 600;
+  color: white;
+  padding-bottom: 5px;
+ }
+
+ .ft-button {
+  display: flex;
+  background-color: white;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+  transition: opacity .5s;
+}
+
+.ft-button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.herohome {
+  display: flex;
+  justify-content:space-around;
+  background-color:#f4f4f4;
+  margin-bottom: 30px;
+}
+
+.herotexthome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 20px;
+  width: 50%;
+}
+
+.herotexthome h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #03456c;
+  background-image: none;
+}
+
+.herotexthome p {
+  font-size: 35px;
+  font-weight:lighter;
+  color: #03456c;
+  line-height: 40px;
+}
+
+.heroimghome {
+  display:flexbox;
+  
+}
+
+.basiccontent {
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;
+  margin: 0 40px;
+  
+}
+
+/* Case Study Grid Area */
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+  width:80%;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "govcase govcase govcase"
+  "npocase npocase npocase2"
+  "wiknowcase wiknowcase wiknowcase"
+  ;
+}
+
+#govcase {
+  grid-area: govcase;
+  background-image: url("/images/govmobile.jpg");
+
+}
+#npocase1 {
+  grid-area: npocase;
+  background-image: url("/images/npomobile.jpg");
+}
+#npocase2 {
+  grid-area: npocase2;
+  background-image: url("/images/npodesktop.jpg");
+}
+
+#wiknowcase {
+  grid-area: wiknowcase;
+  background-image: url("/images/wiknow1.jpg");
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: start;
+}
+
+.summary {
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 15px;
+  width: 350px;
+  color: black;
+  font-size: 18px;
+  border: 3px solid #03456c;
+}
+
+.summary h1 {
+  background-image: none;
+}
+
+.summery p {
+
+}
