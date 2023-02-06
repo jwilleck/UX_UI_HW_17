@@ -45,7 +45,7 @@ nav {
   .nav-item:hover {
     border-radius: 10px;
     background-color: rgba(245, 240, 240, 0.2);
-   
+    
   }
   
   .nav-item:hover a {
@@ -256,11 +256,11 @@ nav {
 
    .ft-middle p {
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 200;
     margin: 0 0;
     padding-bottom: 3px;
-    line-height: 16px;
+    line-height: 24px;
  }
   
  .ft-middle h3 {
@@ -285,6 +285,26 @@ nav {
 .ft-button:hover {
   opacity: 0.7;
   cursor: pointer;
+}
+
+.footer-nav {
+  list-style: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.ftnav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.ftnav-item:hover {
+  border-radius: 10px;
+  background-color: rgba(245, 240, 240, 0.2);
+}
+
+.ftnav-active a {
+ color: #A7D8F5;
 }
 
 .herohome {
