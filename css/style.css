@@ -88,7 +88,7 @@ nav {
     font-family: 'Merriweather Sans', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: url(images/headerline5.png);
+    background-image: url(/images/headerline5.png);
     background-repeat: no-repeat;
     }
   
@@ -325,7 +325,7 @@ text-decoration: none;
 /* New Hero Area */
 .newhero {
   display: flex;
-  background-image: url("images/hero-wide.png");
+  background-image: url(/images/hero-wide.png);
   width: 100%;
   height: auto;
   background-size: cover;
@@ -380,32 +380,32 @@ text-decoration: none;
 
 #govcase {
   grid-area: govcase;
-  background-image: url("images/gov-home-lg.jpg");
+  background-image: url(/images/gov-home-lg.jpg);
 
 }
 #npocase1 {
   grid-area: npocase1;
-  background-image: url("images/npo-home-lg.jpg");
+  background-image: url(/images/npo-home-lg.jpg);
 }
 #npocase2 {
   grid-area: npocase2;
-  background-image: url("images/npo-wide.png");
+  background-image: url(/images/npo-wide.png);
 }
 
 #wiknowcase {
   grid-area: wiknowcase;
-  background-image: url("images/wiknow-home-lg.jpg");
+  background-image: url(/images/wiknow-home-lg.jpg);
 }
 
 #wiknowcase2 {
   grid-area: wiknowcase2;
-  background-image: url("images/wiknow1.jpg");
+  background-image: url(/images/wiknow1.jpg);
   background-color: #f5f5f5;
 }
 
 #wiknowcase3 {
   grid-area: wiknowcase3;
-  background-image: url("images/wiknow-mobile3.jpg");
+  background-image: url(images/wiknow-mobile3.jpg);
   background-color: #f5f5f5;
 }
 
