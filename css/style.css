@@ -325,7 +325,7 @@ text-decoration: none;
 /* New Hero Area */
 .newhero {
   display: flex;
-  background-image: url(images/hero-wide.png);
+  background-image:url(/images/hero-wide.png);
   width: 100%;
   height: auto;
   background-size: cover;
@@ -380,7 +380,7 @@ text-decoration: none;
 
 #govcase {
   grid-area: govcase;
-  background-image: url(images/gov-home-lg.jpg);
+  background-image: url(/images/gov-home-lg.jpg);
 
 }
 #npocase1 {
@@ -449,4 +449,47 @@ text-decoration: none;
 
 .summary p {
   font-weight: 300;
+}
+.hero {
+  display: flex;
+  justify-content:space-around;
+  background-color:#f4f4f4;
+  margin-bottom: 30px;
+}
+
+.herotext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 20px;
+  width: 50%;
+}
+
+.heroimg {
+  display:flexbox;
+  margin: 0 auto;
+}
+
+.heroimg img {
+ width: 100%;  
+}
+
+  .herotext p {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color:black;
+  text-align: left;
+  line-height: 34px;
+  
+  
+}
+
+.herotext h1 {
+  font-size: 25px;
+  color:#03456c;
+  font-weight:700;
+  font-family: 'Merriweather Sans', sans-serif;
+  background-image: none;
+  
 }
