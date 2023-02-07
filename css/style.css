@@ -325,7 +325,7 @@ text-decoration: none;
 /* New Hero Area */
 .newhero {
   display: flex;
-  background-image: url(/images/hero-wide.png);
+  background-image: url(images/hero-wide.png);
   width: 100%;
   height: auto;
   background-size: cover;
@@ -380,7 +380,7 @@ text-decoration: none;
 
 #govcase {
   grid-area: govcase;
-  background-image: url(/images/gov-home-lg.jpg);
+  background-image: url(images/gov-home-lg.jpg);
 
 }
 #npocase1 {
