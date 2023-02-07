@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: 'Merriweather Sans', sans-serif;
+  
 }
 
 nav {
@@ -126,7 +127,7 @@ nav {
 
     .herotext p {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
     color:black;
     text-align: left;
@@ -305,12 +306,47 @@ text-decoration: none;
   text-decoration: none;
 }
 
-.ftnav-item:hover a {
-  color: #A7D8F5;
+.ftnav-item:hover {
+  border-radius: 10px;
+  background-color: rgba(245, 240, 240, 0.2);
 }
 
 .ftnav-active a {
  color: #A7D8F5;
+}
+
+.herohome {
+  display: flex;
+  justify-content:space-around;
+  background-color:#f4f4f4;
+  margin-bottom: 30px;
+}
+
+.herotexthome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 20px;
+  width: 50%;
+}
+
+.herotexthome h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #03456c;
+  background-image: none;
+}
+
+.herotexthome p {
+  font-size: 35px;
+  font-weight:lighter;
+  color: #03456c;
+  line-height: 40px;
+}
+
+.heroimghome {
+  display:flexbox;
+  
 }
 
 .basiccontent {
@@ -321,67 +357,29 @@ text-decoration: none;
   
 }
 
-/* New Hero Area */
-.newhero {
-  display: flex;
-  background-image: url("/images/hero-wide.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 500px;
-}
-
-.herotextleft {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin: auto 40px;
-}
-
-.herotextleft h1 {
-  font-size: 45px;
-  background-image: none;
-}
-
-.herotextright {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  margin: auto 40px;
-  
-}
-.herotextright h2 {
-  background-image: none;
-  font-size: 30px;
-  text-decoration: italic;
-  font-weight: lighter;
-  margin: auto 50px;
-}
-
-
-
 /* Case Study Grid Area */
 #categoryGrid {
+  margin: 20px 10%;
   display: grid;
-  justify-content: center;
-  margin: auto 15%;
-  grid-template-rows: 350px 350px 350px;
-  grid-template-columns: 1fr 1fr;
+  border: 3px solid white;
+  width:80%;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-  "govcase govcase"
-  "npocase1 npocase1"
-  "wiknowcase wiknowcase"
-  
+  "govcase govcase govcase"
+  "npocase npocase npocase2"
+  "wiknowcase wiknowcase2 wiknowcase3"
   ;
 }
 
 #govcase {
   grid-area: govcase;
-  background-image: url("/images/gov-home-lg.jpg");
+  background-image: url("/images/govmobile.jpg");
 
 }
 #npocase1 {
-  grid-area: npocase1;
-  background-image: url("/images/npo-home-lg.jpg");
+  grid-area: npocase;
+  background-image: url("/images/npodesktop.jpg");
 }
 #npocase2 {
   grid-area: npocase2;
@@ -390,7 +388,7 @@ text-decoration: none;
 
 #wiknowcase {
   grid-area: wiknowcase;
-  background-image: url("/images/wiknow-home-lg.jpg");
+  background-image: url("/images/wiknow-resize.png");
 }
 
 #wiknowcase2 {
@@ -410,17 +408,17 @@ text-decoration: none;
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
-  margin: 15px;
+  margin: 5px;
   cursor: pointer;
   display: grid;
   align-content: start;
 }
 
 .summary {
-  margin-top: 10px;
-  margin-left: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 0 5px;
+  padding: 10px;
   width: 400px;
   color: black;
   font-size: 16px;
@@ -429,14 +427,8 @@ text-decoration: none;
 
 .summary h1 {
   background-image: none;
-  padding-bottom: 10px;
-}
-
-.summary h2 {
-  font-size: 14px;
-  padding-bottom: 10px;
 }
 
 .summary p {
-  font-weight: 300;
+  font-weight: 600;
 }
