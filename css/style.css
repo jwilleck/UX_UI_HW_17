@@ -12,15 +12,32 @@ body {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
+.main {
+  margin-top: 100px;
+}
+
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
     width: 100%;
-    background-color:#03456c;
     padding-left: 30px;
     padding-right: 10px;
-    
-    
+    background-color:#03456c;
+    transition: background-color 0.4s ease-out;
+  }
+  nav.scroll {
+    background-color: #03466cab;
   }
   
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
   .logo {
     display: inline-block;
    
@@ -52,14 +69,7 @@ nav {
     color: white;
   }
   
-
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   
-  }
-
   .active a {
     text-decoration: underline #A7D8F5;
   }
@@ -79,8 +89,7 @@ nav {
   .linkedin:hover {
     cursor: pointer;
   }
-  
-  
+ 
   h1 {
     font-size: 24px;
     font-weight: bold;
@@ -295,7 +304,7 @@ text-decoration: none;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10% 0;
-  
+   
 }
 
 .herotextleft {

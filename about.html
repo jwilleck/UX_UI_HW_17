@@ -10,13 +10,18 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Merriweather+Sans:ital,wght@0,300;0,800;1,300&display=swap" rel="stylesheet">   
-
-
+<!--on scroll change nav background color-->
+<script>
+window.onscroll = () => {
+      const nav = document.querySelector('#navbar');
+      if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
+    }
+    </script>
 </head>
-    <body>
+    
  <!-- Navbar -->
 <header>
-    <nav class="navbar">
+    <nav id="navbar">
         <a href="index.html"><img class="logo" src="images/logo-white.png" ></a>
         <ul class="nav-links">
             <li class="nav-item"><a href="index.html">Work</a></li>
@@ -28,7 +33,9 @@
         </nav>
       
 </header>
-<div class="hero">
+
+<body>
+<div class="hero main">
 
     <div class="heroimg">
         <img src="images/jennifer2.png">
